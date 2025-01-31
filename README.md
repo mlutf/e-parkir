@@ -1,6 +1,6 @@
 #Login to MariaDB DBMS
 
----
+```
 mysql -u root -p
 
 
@@ -17,4 +17,4 @@ CREATE TABLE parking_records (
     fee INT,
     is_ticket_lost BOOLEAN DEFAULT FALSE
 );
----
+```
